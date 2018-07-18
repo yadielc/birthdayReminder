@@ -5,6 +5,7 @@ import LandingPage from './LandingPage';
 import Add from './Add';
 import Delete from './Delete';
 import {Switch, Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Main = () => (
  <Switch>
