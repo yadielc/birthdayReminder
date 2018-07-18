@@ -5,6 +5,8 @@ import {Header, Layout, Navigation, Drawer, Content } from 'react-mdl';
 
 /*
 
+App.js
+This is the main component of the application. 
 
 
 */
