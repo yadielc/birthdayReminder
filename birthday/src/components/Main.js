@@ -4,7 +4,7 @@ import React from 'react';
 
 const Main = () => {
  <Switch>
-  <Router exact path="/" component={}
+  <Router exact path="/" component={LandingPage}
  </Switch>
 
 }
