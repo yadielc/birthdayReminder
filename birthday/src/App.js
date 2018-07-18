@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Header, Layout, Navigation, Drawer, Content } from 'react-mdl';
-
+import Main from './components/Main';
 /*
 
 App.js
