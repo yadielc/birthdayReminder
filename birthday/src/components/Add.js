@@ -10,4 +10,4 @@ class Add extends Component {
 
 }
 
-export default Resume;
+export default Add;
