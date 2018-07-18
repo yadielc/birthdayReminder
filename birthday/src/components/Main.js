@@ -4,6 +4,7 @@ import React from 'react';
 
 const Main = () => {
  <Switch>
- </Switch> 
+  <Router exact path="/" component={}
+ </Switch>
 
 }
