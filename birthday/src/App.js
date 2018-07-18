@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { } from 'react-mdl';
+import {Layout, Navigation, Drawer, Content } from 'react-mdl';
 
 class App extends Component {
   render() {
