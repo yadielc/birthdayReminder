@@ -2,6 +2,7 @@
 
 import React from 'react';
 import LandingPage from './LandingPage';
+import {Switch, Route} from 'react-router-dom';
 
 const Main = () => {
  <Switch>
@@ -10,4 +11,4 @@ const Main = () => {
 
 }
 
-export default Main; 
+export default Main;
