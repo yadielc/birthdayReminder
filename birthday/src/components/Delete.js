@@ -1,6 +1,6 @@
-import React, {Component} from ' react';
+import React, {Component} from 'react';
 
-class Add extends Component {
+class Delete extends Component {
   render() {
     return(
 
