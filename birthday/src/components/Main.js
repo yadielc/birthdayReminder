@@ -1,4 +1,4 @@
-/* This component is going to have all the routes */
+/* This component is going to handle all the routes */
 
 import React from 'react';
 import LandingPage from './LandingPage';
