@@ -7,7 +7,7 @@ import {Header, Layout, Navigation, Drawer, Content } from 'react-mdl';
 
 App.js
 This is the main component of the application. This files
-contains the main UI of the application.  
+contains the main UI of the application.
 
 
 */
@@ -17,7 +17,7 @@ class App extends Component {
     return (
   <div className="demo-big-content">
       <Layout>
-          <Header title="Title" scroll>
+          <Header title="Birthday Reminder Application" scroll>
               <Navigation>
                   <a href="#">Link</a>
                   <a href="#">Link</a>
