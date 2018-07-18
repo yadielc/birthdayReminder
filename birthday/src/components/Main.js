@@ -10,6 +10,8 @@ const Main = () => (
  <Switch>
   <Route exact path="/" component={LandingPage} />
   <Route path="/Add" component={Add}/>
+    <Route path="/Delete" component={Delete}/>
+
  </Switch>
 
 )
