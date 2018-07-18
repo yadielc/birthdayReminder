@@ -31,7 +31,7 @@ class App extends Component {
       <Layout>
           <Header title="Birthday Reminder Application" scroll>
               <Navigation>
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                   <a href="/">Add</a>
                   <a href="/">Delete</a>
                   <a href="/">Link</a>
