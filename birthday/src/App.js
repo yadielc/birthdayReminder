@@ -28,6 +28,7 @@ class App extends Component {
   state = {
     birthdays: [
       {personName: 'Felix', birthdayDate: 'August 26th' },
+      {personName: 'Felix', birthdayDate: 'August 26th' },
 
     ]
 
