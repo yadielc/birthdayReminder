@@ -25,6 +25,13 @@ contains the main UI of the application.
 */
 
 class App extends Component {
+  state = {
+    birthdays: [
+      {personName: 'Felix', birthdayDate: 'August 26th' },
+
+    ]
+
+  }
   render() {
     return (
   <div className="demo-big-content">
