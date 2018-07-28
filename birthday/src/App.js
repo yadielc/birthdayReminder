@@ -25,6 +25,11 @@ contains the main UI of the application.
 */
 
 class App extends Component {
+
+  /*
+  State is the arrays of the current birthdays that are coming up. 
+
+  */
   state = {
     birthdays: [
       {personName: 'Felix', birthdayDate: 'August 26th' },
