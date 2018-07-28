@@ -5,6 +5,8 @@ import {Header, Layout, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main';
 import {Link} from 'react-router-dom';
 import Accordion from 'react-bootstrap/lib/Accordion'
+import Panel from 'react-bootstrap/lib/Panel'
+
 
 /*
 
