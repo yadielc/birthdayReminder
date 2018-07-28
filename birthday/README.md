@@ -8,4 +8,4 @@ Concepts showcased in this project:<br>
 1. The React Framework
 2. Components
 3. Declarative routing using React Router.  
-4. 
+4. React Material UI 
