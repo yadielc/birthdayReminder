@@ -4,6 +4,7 @@ import './App.css';
 import {Header, Layout, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main';
 import {Link} from 'react-router-dom';
+import Accordion from 'react-bootstrap/lib/Accordion'
 
 /*
 
@@ -27,7 +28,7 @@ contains the main UI of the application.
 class App extends Component {
 
   /*
-  State is the arrays of the current birthdays that are coming up. 
+  State is the arrays of the current birthdays that are coming up.
 
   */
   state = {
