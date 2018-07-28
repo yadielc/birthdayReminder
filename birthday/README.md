@@ -1,1 +1,1 @@
-<strong>Birthday Remidner Application</strong>
+<strong>Birthday Reminder Application</strong>
