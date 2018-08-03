@@ -8,7 +8,8 @@ class Add extends Component {
       <div><h1> Add Birthdays Page</h1>
 
       <Panel>
-      Upcoming Birthdays:
+      Upcoming Birthdays:<br>
+      Here all the upcoming birthdays go.<br> 
       </Panel>
 
       </div>
