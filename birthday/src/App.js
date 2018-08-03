@@ -13,6 +13,7 @@ import FormGroup from 'react-bootstrap/lib/FormGroup'
 import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 import FormControl from 'react-bootstrap/lib/FormControl'
 import UpComing from './components/UpComing';
+import Add from './components/Add';
 
 
 
@@ -37,10 +38,12 @@ contains the main UI of the application.
 
 class App extends Component {
 
+
   /*
   State is the arrays of the current birthdays that are coming up.
 
   */
+
   state = {
     birthdays: [
       {personName: 'Felix', birthdayDate: 'August 26th' },
@@ -50,6 +53,9 @@ class App extends Component {
     ]
 
   }
+
+
+
   render() {
     return (
   <div className="demo-big-content">
@@ -67,11 +73,20 @@ class App extends Component {
               <div className="page-content" />
               <h1>HELLO</h1>
               <UpComing/>
+                <Add birthdays={this.state.birthdays} createTask={this.createTask.bind(this)} />
               <Main/>
           </Content>
       </Layout>
   </div>
     );
+  }
+
+  createTask(task) {
+      this.state.birthdays.push({
+          task,
+
+      });
+      this.setState({ todos: this.state.birthdays });
   }
 }
 
