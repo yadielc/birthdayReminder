@@ -65,9 +65,7 @@ class App extends Component {
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
-              <Panel>
-              Upcoming Birthdays:
-              </Panel>
+            
               <Main/>
           </Content>
       </Layout>
