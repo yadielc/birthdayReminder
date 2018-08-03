@@ -73,7 +73,7 @@ class App extends Component {
               <div className="page-content" />
               <h1>HELLO</h1>
               <UpComing/>
-                <Add birthdays={this.state.birthdays} createTask={this.createTask.bind(this)} />
+            
               <Main/>
           </Content>
       </Layout>
