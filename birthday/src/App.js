@@ -12,7 +12,7 @@ import Modal from 'react-bootstrap/lib/Modal'
 import FormGroup from 'react-bootstrap/lib/FormGroup'
 import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 import FormControl from 'react-bootstrap/lib/FormControl'
-//import Upcoming from './components/UpComing';
+import UpComing from './components/UpComing';
 
 
 
@@ -66,7 +66,7 @@ class App extends Component {
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
-        
+              <UpComing/>
               <Main/>
           </Content>
       </Layout>
