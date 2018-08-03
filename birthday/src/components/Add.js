@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
 
 class Add extends Component {
+
+  constructor(props) {
+       super(props);
+
+       this.state = {
+           error: null
+       };
+   }
+
   render() {
     return(
 
@@ -13,21 +22,17 @@ class Add extends Component {
   }
 
   handleCreate(event) {
+       const createInput = this.refs.createInput;
+       const task = createInput.value;
       event.preventDefault();
 
-      const createInput = this.refs.createInput;
-      const task = createInput.value;
-      const validateInput = this.validateInput(task);
-
-      if (validateInput) {
-          this.setState({ error: validateInput });
-          return;
-      }
 
       this.setState({ error: null });
       this.props.createTask(task);
       this.refs.createInput.value = '';
   }
+
+
 
 }
 
