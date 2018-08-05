@@ -4,7 +4,6 @@ import './App.css';
 import {Header, Layout, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main';
 import {Link} from 'react-router-dom';
-import Accordion from 'react-bootstrap/lib/Accordion'
 import Panel from 'react-bootstrap/lib/Panel'
 import Button from 'react-bootstrap/lib/Button'
 import ButtonToolbar from 'react-bootstrap/lib/ButtonToolbar'
@@ -73,7 +72,7 @@ class App extends Component {
               <div className="page-content" />
               <h1>HELLO</h1>
               <UpComing/>
-            
+
               <Main/>
           </Content>
       </Layout>
