@@ -32,15 +32,6 @@ class App extends Component {
 
   */
 
-  state = {
-    birthdays: [
-      {personName: 'Felix', birthdayDate: 'August 26th' },
-      {personName: 'Sam', birthdayDate: 'August 2nd' },
-      {personName: 'Felix', birthdayDate: 'July 27th' }
-
-    ]
-
-  }
 
 
 
