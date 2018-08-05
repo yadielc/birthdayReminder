@@ -63,7 +63,6 @@ class App extends Component {
                   <Link to="/LandingPage">Home</Link>
                     <Link to="/Add">Add</Link>
                       <Link to="/Delete">Delete</Link>
-
               </Navigation>
           </Header>
 
@@ -71,7 +70,6 @@ class App extends Component {
               <div className="page-content" />
               <h1>HELLO</h1>
               <UpComing/>
-
               <Main/>
           </Content>
       </Layout>
