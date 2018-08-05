@@ -14,6 +14,26 @@ class UpComing extends Component {
       )
   }
 
+  formSubmit = (e) => {
+    e.preventDefault();
+
+    let birthdays = this.state.birthdays;
+    let name = this.refs.name.value;
+    let date = this.refs.date.value;
+
+    let birthday= {
+        name, date
+    }
+
+    birthdays.push(birthday);
+
+    this.setState({
+      birthdays: birthdays
+    });
+
+
+  }
+
 }
 
 export default UpComing;

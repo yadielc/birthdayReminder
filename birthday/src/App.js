@@ -37,13 +37,7 @@ class App extends Component {
     }
   }
 
-  formSubmit = (e) => {
-    e.preventDefault();
 
-    let birthdays = this.state.birthdays;
-    let name = this.refs.name.value;
-    let date = this.refs.date.value; 
-  }
 
 
 
