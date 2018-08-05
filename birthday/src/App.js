@@ -27,10 +27,15 @@ contains the main UI of the application.
 class App extends Component {
 
 
-  /*
-  State is the arrays of the current birthdays that are coming up.
-
-  */
+  constructor(props){
+    super(props);
+    this.state={
+       title: 'Birthday Reminder Application',
+       act: 0,
+       index: '',
+       birthdays:[]
+    }
+  }
 
 
 
