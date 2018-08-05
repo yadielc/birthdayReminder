@@ -42,7 +42,7 @@ class App extends Component {
 
     let birthdays = this.state.birthdays;
     let name = this.refs.name.value;
-    
+    let date = this.refs.date.value; 
   }
 
 
