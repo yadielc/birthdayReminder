@@ -2,20 +2,13 @@ import React, {Component} from 'react';
 
 class Add extends Component {
 
-  constructor(props) {
-       super(props);
-
-       this.state = {
-           error: null
-       };
-   }
-
   render() {
     return(
 
       <form onSubmit={this.handleCreate.bind(this)}>
                 <input type="text" placeholder="Name" ref="nameForm" />
-                <button>Create</button>
+                <button onClick ={(e)=>this.formSubmit(e)}> Add</button>
+
 
             </form>
     )
@@ -50,7 +43,7 @@ class Add extends Component {
         birthdays: birthdays
       });
 
-      this.refs.nameForm.reset(); 
+      this.refs.nameForm.reset();
 
 
 
