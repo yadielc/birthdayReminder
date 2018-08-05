@@ -22,16 +22,6 @@ This is the main component of the application. This files
 contains the main UI of the application.
 
 
-<Drawer title="Title">
-    <Navigation>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </Navigation>
-</Drawer>
-
-
 */
 
 class App extends Component {
