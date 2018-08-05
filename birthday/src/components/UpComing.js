@@ -31,7 +31,6 @@ class UpComing extends Component {
       birthdays: birthdays
     });
 
-    
 
 
   }
