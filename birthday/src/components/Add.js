@@ -14,7 +14,7 @@ class Add extends Component {
     return(
 
       <form onSubmit={this.handleCreate.bind(this)}>
-                <input type="text" placeholder="What do I need to do?" ref="createInput" />
+                <input type="text" placeholder="Name" ref="nameForm" />
                 <button>Create</button>
 
             </form>
@@ -50,7 +50,7 @@ class Add extends Component {
         birthdays: birthdays
       });
 
-
+      this.refs.nameForm.reset(); 
 
 
 
