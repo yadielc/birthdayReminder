@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+/*NOT USED ANYMORE, FOR NOW
+*/
+
 class Add extends Component {
 
   render() {
