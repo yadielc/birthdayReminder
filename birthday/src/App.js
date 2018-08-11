@@ -56,7 +56,13 @@ class App extends Component {
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
-              <UpComing/>
+              <div>
+                <Panel>
+                  Upcoming Birthdays:<br/>
+                  Here all the upcoming birthdays go.<br/>
+                </Panel>
+              </div>
+              
               <Main/>
           </Content>
       </Layout>
