@@ -12,6 +12,9 @@ import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 import FormControl from 'react-bootstrap/lib/FormControl'
 import UpComing from './components/UpComing';
 import Add from './components/Add';
+import BirthdayItem from './BirthdayItem';
+
+
 
 
 /*
@@ -79,10 +82,9 @@ render() {
                   {
                     this.state.birthdays.map(birthday=> {
                        return (
-                         <div key={birthday.name}>
-                         <span>{birthday.name}</span> | <span>{birthday.date}</span>
-                        <button>Delete</button> 
-                        </div>
+                        <BirthdayItem
+                        key={birthday.name}
+                        {...birthday}/>
                        );
 
                     })

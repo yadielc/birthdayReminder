@@ -21,7 +21,7 @@ render() {
   const {name, date} = this.props; // getting the name and date from props
     return (
   <div>
-    <span>{birthday.name}</span> | <span>{birthday.date}</span>
+    <span>{name}</span> | <span>{date}</span>
     <button>Delete</button>
     </div>
     );
