@@ -52,6 +52,7 @@ class App extends Component {
     const birthdays = JSON.parse(localStorage.getItem('birthdays'));
     this.setState({birthdays});
   }
+  
 render() {
     return (
   <div className="demo-big-content">
