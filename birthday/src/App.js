@@ -60,6 +60,11 @@ class App extends Component {
     const birthdays = JSON.parse(localStorage.getItem('birthdays'));
     this.setState({birthdays});
   }
+
+  onDelete (name) {
+    console.log(name);
+
+  }
 render() {
     return (
   <div className="demo-big-content">
@@ -84,7 +89,9 @@ render() {
                        return (
                         <BirthdayItem
                         key={birthday.name}
-                        {...birthday}/>
+                        {...birthday}
+                        onDelete={this.onDelete}
+                        />
                        );
 
                     })
