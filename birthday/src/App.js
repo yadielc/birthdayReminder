@@ -75,9 +75,8 @@ render() {
               <div>
                 <Panel>
                   Upcoming Birthdays:<br/>
-        
-                  {
 
+                  {
                     this.state.birthdays.map(birthday=> {
                        return (
                          <div key={birthday.name}>
