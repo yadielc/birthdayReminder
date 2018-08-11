@@ -30,12 +30,12 @@ THE APPLICATION
 const birthdays = [
    {
      name: 'Felix',
-     birthday:'August 26'
+     date:'August 26'
 
    },
    {
      name: 'Lisa',
-     birthday: 'September 27'
+     date: 'September 27'
     }
 ];
 
@@ -44,7 +44,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      products: []
+      birthdays: []
     };
   }
 
@@ -67,6 +67,17 @@ render() {
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
+              {
+
+                this.state.birthdays.map(birthday=> {
+                   return (
+                     <div key={birthday.name}>
+                     <span>{birthday.name}</span> | <span>{birthday.date}</span>
+                    </div>
+                   );
+
+                })
+              }
               <div>
                 <Panel>
                   Upcoming Birthdays:<br/>
