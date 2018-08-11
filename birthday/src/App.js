@@ -71,21 +71,22 @@ render() {
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
-              {
 
-                this.state.birthdays.map(birthday=> {
-                   return (
-                     <div key={birthday.name}>
-                     <span>{birthday.name}</span> | <span>{birthday.date}</span>
-                    </div>
-                   );
-
-                })
-              }
               <div>
                 <Panel>
                   Upcoming Birthdays:<br/>
-                  Here all the upcoming birthdays go.<br/>
+        
+                  {
+
+                    this.state.birthdays.map(birthday=> {
+                       return (
+                         <div key={birthday.name}>
+                         <span>{birthday.name}</span> | <span>{birthday.date}</span>
+                        </div>
+                       );
+
+                    })
+                  }
                 </Panel>
               </div>
 
