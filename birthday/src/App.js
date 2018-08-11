@@ -31,15 +31,6 @@ THE APPLICATION
 class App extends Component {
 
 
-  constructor(props){
-    super(props);
-    this.state={
-       title: 'Birthday Reminder Application',
-       act: 0,
-       index: '',
-       birthdays:[]
-    }
-  }
 
 
 render() {
