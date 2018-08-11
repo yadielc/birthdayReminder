@@ -42,11 +42,7 @@ class App extends Component {
   }
 
 
-
-
-
-
-  render() {
+render() {
     return (
   <div className="demo-big-content">
       <Layout>
