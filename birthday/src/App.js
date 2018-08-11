@@ -21,6 +21,10 @@ App.js
 This is the main component of the application. This files
 contains the main UI of the application.
 
+NOTE: CHANGED THE STRUCTURE OF THE APPLICATION, INITIALLY, THE IDEA WAS TO
+HAVE EVERYTHING ON ITS OWN COMPONENT, HOWEVER, I FOUND AN EASIER WAY TO DO IT,
+SINCE THE COMPONENTS ARE NOT GOING TO BE REUSED ON DIFFERENT PARTS OF
+THE APPLICATION
 
 */
 
@@ -62,7 +66,7 @@ class App extends Component {
                   Here all the upcoming birthdays go.<br/>
                 </Panel>
               </div>
-              
+
               <Main/>
           </Content>
       </Layout>
