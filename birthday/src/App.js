@@ -28,8 +28,19 @@ THE APPLICATION
 
 */
 
-class App extends Component {
+const birthdays = [
+   {
+     name: 'Felix',
+     birthday:'August 26'
 
+   },
+   {
+     name: 'Lisa',
+     birthday: 'September 27'
+    }
+
+];
+class App extends Component {
 
 
 
@@ -61,13 +72,6 @@ render() {
     );
   }
 
-  createTask(task) {
-      this.state.birthdays.push({
-          task,
-
-      });
-      this.setState({ todos: this.state.birthdays });
-  }
 }
 
 export default App;
