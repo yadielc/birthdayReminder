@@ -38,7 +38,13 @@ const birthdays = [
      birthday: 'September 27'
     }
 ];
+
+localStorage.setItem('birthdays', JSON.stringify(birthdays));
 class App extends Component {
+  componentWillMount(){
+
+    const birthdays = JSON.parse(localStorage.getItem('birthdays'));
+  }
 render() {
     return (
   <div className="demo-big-content">
