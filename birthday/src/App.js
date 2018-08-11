@@ -41,6 +41,13 @@ const birthdays = [
 
 localStorage.setItem('birthdays', JSON.stringify(birthdays));
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      products: []
+    };
+  }
+  
   componentWillMount(){
 
     const birthdays = JSON.parse(localStorage.getItem('birthdays'));
