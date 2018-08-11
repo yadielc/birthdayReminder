@@ -47,10 +47,12 @@ class App extends Component {
       products: []
     };
   }
-  
+
   componentWillMount(){
 
     const birthdays = JSON.parse(localStorage.getItem('birthdays'));
+
+    this.setState({birthdays});
   }
 render() {
     return (
