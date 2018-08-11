@@ -64,6 +64,8 @@ class App extends Component {
   onDelete (name) {
     console.log(name);
 
+    // Finish the onDelete function
+
   }
 render() {
     return (
