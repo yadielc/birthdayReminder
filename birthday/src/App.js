@@ -75,7 +75,7 @@ render() {
               <div>
                 <Panel>
                   Upcoming Birthdays:<br/>
-
+                  // Added upcoming birthdays using the current state of the array 
                   {
                     this.state.birthdays.map(birthday=> {
                        return (
