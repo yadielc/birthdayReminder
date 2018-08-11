@@ -49,7 +49,6 @@ class App extends Component {
   }
 
   componentWillMount(){
-
     const birthdays = JSON.parse(localStorage.getItem('birthdays'));
     this.setState({birthdays});
   }
