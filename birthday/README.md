@@ -12,3 +12,5 @@ Concepts and libraries showcased in this project:<br><br>
 4. React Material UI
 5. React Bootstrap
 6. Application architecture
+7. State
+8. Local Storage 
