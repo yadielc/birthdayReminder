@@ -15,9 +15,10 @@ import Add from './components/Add';
 
 
 
-class App extends Component {
+class BirthdayItem extends Component {
 
 render() {
+  const {name, date} = this.props; // getting the name and date from props
     return (
   <div>
     <span>{birthday.name}</span> | <span>{birthday.date}</span>
@@ -28,4 +29,4 @@ render() {
 
 }
 
-export default App;
+export default BirthdayItem;
