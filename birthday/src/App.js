@@ -38,7 +38,6 @@ const birthdays = [
      name: 'Lisa',
      birthday: 'September 27'
     }
-
 ];
 class App extends Component {
 render() {
