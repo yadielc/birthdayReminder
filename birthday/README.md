@@ -11,4 +11,4 @@ Concepts and libraries showcased in this project:<br><br>
 3. Declarative routing using React Router.  
 4. React Material UI
 5. React Bootstrap
-6. Application architecture 
+6. Application architecture
