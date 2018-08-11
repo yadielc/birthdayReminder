@@ -41,9 +41,6 @@ const birthdays = [
 
 ];
 class App extends Component {
-
-
-
 render() {
     return (
   <div className="demo-big-content">
