@@ -75,12 +75,13 @@ render() {
               <div>
                 <Panel>
                   Upcoming Birthdays:<br/>
-                  // Added upcoming birthdays using the current state of the array 
+                  // Added upcoming birthdays using the current state of the array
                   {
                     this.state.birthdays.map(birthday=> {
                        return (
                          <div key={birthday.name}>
                          <span>{birthday.name}</span> | <span>{birthday.date}</span>
+                        <button>Delete</button> 
                         </div>
                        );
 
