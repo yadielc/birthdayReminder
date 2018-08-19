@@ -64,7 +64,12 @@ class App extends Component {
   }
 
   onDelete (name) {
-    const birthdays = this.getBirthdays(); 
+    const birthdays = this.getBirthdays();
+
+    const filteredBirthdays = birthdays.filter(birthday => {
+       return birthday.name !== name;
+
+    });
 
     // Finish the onDelete function
 
