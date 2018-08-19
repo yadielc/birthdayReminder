@@ -64,7 +64,7 @@ class App extends Component {
   }
 
   onDelete (name) {
-    console.log(name);
+    const birthdays = this.getProducts(); 
 
     // Finish the onDelete function
 
