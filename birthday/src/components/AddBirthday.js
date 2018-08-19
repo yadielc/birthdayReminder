@@ -27,4 +27,4 @@ render() {
 
 }
 
-export default BirthdayItem;
+export default AddBirthday;
