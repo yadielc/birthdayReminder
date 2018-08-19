@@ -13,6 +13,7 @@ import FormControl from 'react-bootstrap/lib/FormControl'
 import UpComing from './components/UpComing';
 import Add from './components/Add';
 import BirthdayItem from './BirthdayItem';
+import AddBirthday from './components/AddBirthday';
 
 
 
