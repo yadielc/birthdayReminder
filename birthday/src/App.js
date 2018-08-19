@@ -63,6 +63,10 @@ class App extends Component {
 
   }
 
+  onAdd () {
+
+  }
+
   onDelete (name) {
     const birthdays = this.getBirthdays();
 
