@@ -68,7 +68,6 @@ class App extends Component {
 
     const filteredBirthdays = birthdays.filter(birthday => {
        return birthday.name !== name;
-
     });
 
   this.setState({birthdays: filteredBirthdays});
