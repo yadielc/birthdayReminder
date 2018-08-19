@@ -15,12 +15,12 @@ import Add from './components/Add';
 
 
 
-class BirthdayItem extends Component {
+class AddBirthday extends Component {
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <div>
-  
+
     </div>
     );
   }
