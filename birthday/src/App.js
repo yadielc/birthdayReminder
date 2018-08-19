@@ -59,7 +59,7 @@ class App extends Component {
   }
 
   getBirthdays() {
-    const birthdays = JSON.parse(localStorage.getItem('birthdays'));
+    return JSON.parse(localStorage.getItem('birthdays'));
 
   }
 
