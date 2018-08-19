@@ -71,7 +71,7 @@ class App extends Component {
 
     });
 
-    // Finish the onDelete function
+  this.setState({birthdays: filteredBirthdays});
 
   }
 render() {
