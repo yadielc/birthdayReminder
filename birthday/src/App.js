@@ -54,11 +54,13 @@ class App extends Component {
 
   componentWillMount(){
   this.getBirthdays();
+
+  this.setState({birthdays});
   }
 
   getBirthdays() {
     const birthdays = JSON.parse(localStorage.getItem('birthdays'));
-    this.setState({birthdays});
+
   }
 
   onDelete (name) {
