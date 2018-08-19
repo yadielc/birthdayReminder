@@ -13,7 +13,7 @@ import FormControl from 'react-bootstrap/lib/FormControl'
 import UpComing from './components/UpComing';
 import Add from './components/Add';
 import BirthdayItem from './BirthdayItem';
-import AddBirthday from './components/AddBirthday';
+import AddBirthday from './AddBirthday';
 
 
 
@@ -97,7 +97,7 @@ render() {
                 <Panel>
                   Upcoming Birthdays:<br/>
 
-                  <AddBirthday /> 
+                  <AddBirthday />
                   // Added upcoming birthdays using the current state of the array
                   {
                     this.state.birthdays.map(birthday=> {
