@@ -49,10 +49,11 @@ class App extends Component {
     this.state = {
       birthdays: []
     };
+    this.onDelete = this.onDelete.bind(this);
   }
 
   componentWillMount(){
-  this.getBirthdays(); 
+  this.getBirthdays();
   }
 
   getBirthdays() {
