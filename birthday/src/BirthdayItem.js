@@ -22,7 +22,7 @@ render() {
     return (
   <div>
     <span>{name}</span> | <span>{date}</span>
-    <button>Delete</button>
+    <button onClick={this.onDelete}>Delete</button>
     </div>
     );
   }
