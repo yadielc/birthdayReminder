@@ -47,7 +47,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      birthdays: []
+      birthdays:  JSON.parse(localStorage.getItem('birthdays'))
     };
     this.onDelete = this.onDelete.bind(this);
   }
@@ -59,7 +59,7 @@ class App extends Component {
   }
 
   getBirthdays() {
-    return JSON.parse(localStorage.getItem('birthdays'));
+    return this.state.birthdays;
 
   }
 
