@@ -16,7 +16,11 @@ import Add from './components/Add';
 
 
 class BirthdayItem extends Component {
+constructor(props){
 
+  super(props);
+  this.onDelete = this.onDelete.bind(this); 
+}
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
