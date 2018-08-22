@@ -52,7 +52,7 @@ class App extends Component {
     };
     this.onAdd = this.onAdd.bind(this);
     this.onDelete = this.onDelete.bind(this);
-
+    this.onEditSumit = this.onEditSumit.bind(this);
   }
 
   componentWillMount(){
@@ -90,7 +90,7 @@ class App extends Component {
 
   onEditSumit(name, date){
 
-    
+
   }
 render() {
     return (
