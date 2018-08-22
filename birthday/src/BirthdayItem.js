@@ -19,11 +19,20 @@ class BirthdayItem extends Component {
 constructor(props){
 
   super(props);
+
+  this.state = {
+    isEdit: false
+  };
   this.onDelete = this.onDelete.bind(this);
+  this.onEdit = this.onEdit.bind(this);
 }
 
 onDelete(){
   this.props.onDelete(this.props.name);
+
+}
+
+onEdit() {
 
 }
 render() {
@@ -32,6 +41,7 @@ render() {
   <div>
     <span>{name}</span> | <span>{date}</span>
     <button onClick={this.onDelete}>Delete</button>
+    <button onClick={this.onEdit}>Edit</button>
     </div>
     );
   }
