@@ -35,7 +35,7 @@ render() {
   <form onSubmit={this.onSubmit}>
   <input placeholder="Name" ref={nameInput => this.nameInput = nameInput}/>
   <input placeholder="Birthday" ref={birthdayInput => this.birthdayInput = birthdayInput}/>
- <button>Add</button>
+  <button>Add</button>
     </form>
     );
   }

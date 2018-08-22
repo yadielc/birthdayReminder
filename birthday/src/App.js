@@ -66,15 +66,15 @@ class App extends Component {
 
   }
 
-  onAdd (name, birthday) {
+  onAdd (name, date) {
     const birthdays = this.getBirthdays();
     birthdays.push({
 
       name,
-      birthday
+      date
     });
     this.setState({birthdays});
-    console.log(name, birthday);
+    console.log(name, date);
   }
 
   onDelete (name) {
