@@ -18,8 +18,11 @@ import Add from './components/Add';
 class AddBirthday extends Component {
 constructor(props){
   super(props);
+  this.onSubmit = this.onSubmit.bind(this);
+}
 
-
+onSubmit(event){
+  event.preventDefault(); // to prevent the page from refreshing
 }
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
