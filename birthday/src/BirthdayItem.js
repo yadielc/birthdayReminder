@@ -38,7 +38,9 @@ onEdit() {
 }
 
 onEditSubmit(event) {
- event.preventDefault(); 
+ event.preventDefault();
+
+ this.props.onEditSubmit(this.nameInput.value, this.birthdayInput.value);
 }
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
@@ -48,8 +50,8 @@ render() {
     this.state.isEdit
     ? ( // edit part of ternary
       <div onSubmit={this.onEditSubmit}>
-       <input placeholder="Name" ref={nameInput => this.nameInput = nameInput}/>
-        <input placeholder="Birthday" ref={birthdayInput => this.birthdayInput = birthdayInput}/>
+       <input placeholder="Name" ref={nameInput => this.nameInput = nameInput} value ={name}/>
+        <input placeholder="Birthday" ref={birthdayInput => this.birthdayInput = birthdayInput} value={date}/>
         <button>Save</button>
          </div>
     )
