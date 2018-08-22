@@ -39,9 +39,20 @@ render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <div>
-    <span>{name}</span> | <span>{date}</span>
-    <button onClick={this.onDelete}>Delete</button>
-    <button onClick={this.onEdit}>Edit</button>
+  {
+    this.state.isEdit
+    ? (
+      <div> </div>
+    )
+    : (
+      <div>
+      <span>{name}</span> | <span>{date}</span>
+      <button onClick={this.onDelete}>Delete</button>
+      <button onClick={this.onEdit}>Edit</button>
+      </div> 
+    )
+  }
+
     </div>
     );
   }
