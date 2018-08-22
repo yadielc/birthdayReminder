@@ -30,7 +30,7 @@ render() {
     return (
   <form onSubmit={this.onSubmit}>
   <input placeholder="Name" ref={}/>
-  <input placeholder="Birthday"/>
+  <input placeholder="Birthday" ref={}/>
 
     </form>
     );
