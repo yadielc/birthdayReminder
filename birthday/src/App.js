@@ -66,8 +66,8 @@ class App extends Component {
 
   }
 
-  onAdd () {
-
+  onAdd (name, price) {
+    console.log(name, price);
   }
 
   onDelete (name) {
