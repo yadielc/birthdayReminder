@@ -20,7 +20,8 @@ render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <div>
-  <inpu placeholder="Name"/>
+  <input placeholder="Name"/>
+
     </div>
     );
   }
