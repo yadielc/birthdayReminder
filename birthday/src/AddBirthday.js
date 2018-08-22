@@ -24,6 +24,7 @@ constructor(props){
 
 onSubmit(event){
   event.preventDefault(); // to prevent the page from refreshing
+  this.props.onAdd(this.nameInput.value, this.birthdayInput.value);
 }
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
