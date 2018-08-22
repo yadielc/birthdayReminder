@@ -66,7 +66,8 @@ class App extends Component {
 
   }
 
-  onAdd (name, price) {
+  onAdd (name, birthday) {
+    const birthdays = this.getBirthdays(); 
     console.log(name, price);
   }
 
