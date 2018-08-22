@@ -25,6 +25,7 @@ constructor(props){
   };
   this.onDelete = this.onDelete.bind(this);
   this.onEdit = this.onEdit.bind(this);
+  this.onEditSubmit = this.onEditSubmit.bind(this);
 }
 
 onDelete(){
@@ -35,21 +36,29 @@ onDelete(){
 onEdit() {
  this.setState({ isEdit:true});
 }
+
+onEditSubmit(event) {
+ event.preventDefault(); 
+}
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <div>
   {
     this.state.isEdit
-    ? (
-      <div> </div>
+    ? ( // edit part of ternary
+      <div onSubmit={this.onEditSubmit}>
+       <input placeholder="Name" ref={nameInput => this.nameInput = nameInput}/>
+        <input placeholder="Birthday" ref={birthdayInput => this.birthdayInput = birthdayInput}/>
+        <button>Save</button>
+         </div>
     )
     : (
       <div>
       <span>{name}</span> | <span>{date}</span>
       <button onClick={this.onDelete}>Delete</button>
       <button onClick={this.onEdit}>Edit</button>
-      </div> 
+      </div>
     )
   }
 
