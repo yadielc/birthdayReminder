@@ -73,7 +73,7 @@ class App extends Component {
       name, birthday
     });
     this.setState({birthdays});
-    console.log(name, price);
+    console.log(name, birthday);
   }
 
   onDelete (name) {
