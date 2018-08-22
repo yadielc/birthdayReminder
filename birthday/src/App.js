@@ -89,7 +89,18 @@ class App extends Component {
   }
 
   onEditSubmit(name, date){
-   this.props.onEditSubmit(this.nameInput.value, this.birthdayInput.value);
+   let birthdays = this.getBirthdays();
+
+   birthdays = birthdays.map(birthday => {
+       if(birthday.name === name) {
+
+         birthday.name = name;
+         birthday.date = date;
+       }
+       return birthday; 
+   });
+
+   this.setState({birthdays})
 
   }
 render() {
