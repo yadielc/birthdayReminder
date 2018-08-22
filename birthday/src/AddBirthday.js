@@ -19,7 +19,7 @@ class AddBirthday extends Component {
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
-  <form
+  <form>
   <input placeholder="Name"/>
   <input placeholder="Birthday"/>
 
