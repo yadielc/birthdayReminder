@@ -18,7 +18,7 @@ import Add from './components/Add';
 class AddBirthday extends Component {
 constructor(props){
   super(props);
-//  this.onSubmit = this.onSubmit.bind(this);
+  this.onSubmit = this.onSubmit.bind(this);
 }
 
 
