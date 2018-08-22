@@ -50,7 +50,9 @@ class App extends Component {
     this.state = {
       birthdays:  JSON.parse(localStorage.getItem('birthdays'))
     };
+    this.onAdd = this.onAdd.bind(this);
     this.onDelete = this.onDelete.bind(this);
+
   }
 
   componentWillMount(){
