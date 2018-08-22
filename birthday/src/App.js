@@ -34,12 +34,12 @@ THE APPLICATION
 const birthdays = [
    {
      name: 'Felix',
-     birthday:'August 26'
+     date:'August 26'
 
    },
    {
      name: 'Lisa',
-     birthday: 'September 27'
+     date: 'September 27'
     }
 ];
 
