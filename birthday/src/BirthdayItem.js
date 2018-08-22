@@ -48,6 +48,7 @@ render() {
     return (
   <div>
   {
+    // Note I have to fix the edit button 
     this.state.isEdit
     ? ( // edit part of ternary
       <div onSubmit={this.onEditSubmit}>
