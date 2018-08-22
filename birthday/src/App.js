@@ -88,16 +88,16 @@ class App extends Component {
 
   }
 
-  onEditSubmit(name, date){
+  onEditSubmit(name, date, originalName){
    let birthdays = this.getBirthdays();
 
    birthdays = birthdays.map(birthday => {
-       if(birthday.name === name) {
+       if(birthday.name === originalName) {
 
          birthday.name = name;
          birthday.date = date;
        }
-       return birthday; 
+       return birthday;
    });
 
    this.setState({birthdays})
