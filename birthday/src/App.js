@@ -87,6 +87,11 @@ class App extends Component {
   this.setState({birthdays: filteredBirthdays});
 
   }
+
+  onEditSumit(name, date){
+
+    
+  }
 render() {
     return (
   <div className="demo-big-content">
