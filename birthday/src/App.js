@@ -34,12 +34,12 @@ THE APPLICATION
 const birthdays = [
    {
      name: 'Felix',
-     date:'August 26'
+     birthday:'August 26'
 
    },
    {
      name: 'Lisa',
-     date: 'September 27'
+     birthday: 'September 27'
     }
 ];
 
@@ -70,7 +70,8 @@ class App extends Component {
     const birthdays = this.getBirthdays();
     birthdays.push({
 
-      name, birthday
+      name,
+      birthday
     });
     this.setState({birthdays});
     console.log(name, birthday);
