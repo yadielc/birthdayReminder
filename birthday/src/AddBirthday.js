@@ -18,7 +18,7 @@ import Add from './components/Add';
 class AddBirthday extends Component {
 constructor(props){
   super(props);
-  this.onSubmit = this.onSubmit.bind(this);
+//  this.onSubmit = this.onSubmit.bind(this);
 }
 
 
@@ -29,9 +29,9 @@ render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <form onSubmit={this.onSubmit}>
-  <input placeholder="Name" ref={}/>
-  <input placeholder="Birthday" ref={}/>
-
+  <input placeholder="Name" ref={nameInput => this.nameInput = nameInput}/>
+  <input placeholder="Birthday" ref={birthdayInput => this.birthdayInput = birthdayInput}/>
+ <button>Add</button>
     </form>
     );
   }
