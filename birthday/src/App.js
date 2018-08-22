@@ -97,7 +97,7 @@ render() {
                 <Panel>
                   Upcoming Birthdays:<br/>
 
-                  <AddBirthday />
+                  <AddBirthday onAdd={this.onAdd}/>
                   // Added upcoming birthdays using the current state of the array
                   {
                     this.state.birthdays.map(birthday=> {
