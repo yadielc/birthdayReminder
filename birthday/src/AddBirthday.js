@@ -21,6 +21,7 @@ constructor(props){
   this.onSubmit = this.onSubmit.bind(this);
 }
 
+
 onSubmit(event){
   event.preventDefault(); // to prevent the page from refreshing
 }
