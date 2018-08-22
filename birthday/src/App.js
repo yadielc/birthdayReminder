@@ -67,7 +67,12 @@ class App extends Component {
   }
 
   onAdd (name, birthday) {
-    const birthdays = this.getBirthdays(); 
+    const birthdays = this.getBirthdays();
+    birthdays.push({
+
+      name, birthday
+    });
+    this.setState({birthdays});
     console.log(name, price);
   }
 
