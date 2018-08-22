@@ -16,10 +16,15 @@ import Add from './components/Add';
 
 
 class AddBirthday extends Component {
+constructor(props){
+  super(props);
+
+
+}
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
-  <form>
+  <form onSubmit={this.onSubmit}>
   <input placeholder="Name"/>
   <input placeholder="Birthday"/>
 
