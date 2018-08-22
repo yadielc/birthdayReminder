@@ -29,7 +29,7 @@ render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <form onSubmit={this.onSubmit}>
-  <input placeholder="Name"/>
+  <input placeholder="Name" ref={}/>
   <input placeholder="Birthday"/>
 
     </form>
