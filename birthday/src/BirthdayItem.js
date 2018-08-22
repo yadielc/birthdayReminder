@@ -33,7 +33,7 @@ onDelete(){
 }
 
 onEdit() {
-
+ this.setState({ isEdit:true});
 }
 render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
