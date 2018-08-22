@@ -20,7 +20,7 @@ render() {
   const {name, onDelete, date} = this.props; // getting the name and date from props
     return (
   <div>
-
+  <h3> Add Birthday</h3> 
     </div>
     );
   }
