@@ -21,6 +21,7 @@ render() {
     return (
   <div>
   <input placeholder="Name"/>
+  <input placeholder="Birthday"/>
 
     </div>
     );
