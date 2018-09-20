@@ -99,7 +99,7 @@ class App extends Component {
    });
    this.setState({birthdays})
   }
-
+  
   render() {
     return (
   <div className="demo-big-content">
