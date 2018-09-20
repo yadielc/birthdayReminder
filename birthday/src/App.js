@@ -7,9 +7,6 @@ import {Link} from 'react-router-dom';
 import Panel from 'react-bootstrap/lib/Panel'
 import Button from 'react-bootstrap/lib/Button'
 import ButtonToolbar from 'react-bootstrap/lib/ButtonToolbar'
-import Modal from 'react-bootstrap/lib/Modal'
-import ControlLabel from 'react-bootstrap/lib/ControlLabel'
-import FormControl from 'react-bootstrap/lib/FormControl'
 import UpComing from './components/UpComing';
 import Add from './components/Add';
 import BirthdayItem from './BirthdayItem';
