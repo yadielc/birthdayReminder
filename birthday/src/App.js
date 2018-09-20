@@ -109,7 +109,6 @@ class App extends Component {
                   <Link to="/LandingPage">Home</Link>
               </Navigation>
           </Header>
-
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
