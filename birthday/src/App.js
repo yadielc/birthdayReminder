@@ -63,7 +63,7 @@ class App extends Component {
     this.setState({birthdays});
   }
 
-  // Get current birthdays from array 
+  // Get current birthdays from array
   getBirthdays() {
     return this.state.birthdays;
 
@@ -71,7 +71,6 @@ class App extends Component {
 
   // Add birthdays to the array
   onAdd (name, date) {
-
     const birthdays = this.getBirthdays();
     birthdays.push({
       name,
@@ -83,12 +82,10 @@ class App extends Component {
 
   onDelete (name) {
     const birthdays = this.getBirthdays();
-
     const filteredBirthdays = birthdays.filter(birthday => {
        return birthday.name !== name;
     });
-
-  this.setState({birthdays: filteredBirthdays});
+    this.setState({birthdays: filteredBirthdays});
 
   }
 
