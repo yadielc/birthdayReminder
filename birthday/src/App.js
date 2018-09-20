@@ -65,7 +65,6 @@ class App extends Component {
   // Get current birthdays from array
   getBirthdays() {
     return this.state.birthdays;
-
   }
 
   // Add birthdays to the array
