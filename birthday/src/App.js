@@ -91,7 +91,6 @@ class App extends Component {
   // Edit current birthdays on array
   onEditSubmit(name, date, originalName){
    let birthdays = this.getBirthdays();
-
    birthdays = birthdays.map(birthday => {
        if(birthday.name === originalName) {
          birthday.name = name;
