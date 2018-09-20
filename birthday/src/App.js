@@ -30,6 +30,7 @@ THINGS TO FIX:
 
 */
 
+// birthdays array
 const birthdays = [
    {
      name: 'Felix',
