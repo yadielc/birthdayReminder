@@ -89,23 +89,21 @@ class App extends Component {
 
   }
 
-  // Edit current birthdays on array 
+  // Edit current birthdays on array
   onEditSubmit(name, date, originalName){
    let birthdays = this.getBirthdays();
 
    birthdays = birthdays.map(birthday => {
        if(birthday.name === originalName) {
-
          birthday.name = name;
          birthday.date = date;
        }
        return birthday;
    });
-
    this.setState({birthdays})
-
   }
-render() {
+
+  render() {
     return (
   <div className="demo-big-content">
       <Layout>
