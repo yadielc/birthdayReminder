@@ -14,6 +14,11 @@ import UpComing from './components/UpComing';
 import Add from './components/Add';
 
 
+/*
+
+NOTE: THIS COMPONENT IS NOT NEEDED ANYMORE, I AM DOING EVERYTHING AT THE APP.JS COMPONENT 
+
+*/
 
 class AddBirthday extends Component {
 constructor(props){
