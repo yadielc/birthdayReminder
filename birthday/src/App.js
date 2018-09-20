@@ -117,11 +117,9 @@ class App extends Component {
           <Content>
               <div className="page-content" />
               <h1>HELLO</h1>
-
               <div>
                 <Panel>
                   Upcoming Birthdays:<br/>
-
                   <AddBirthday onAdd={this.onAdd}/>
                   // Added upcoming birthdays using the current state of the array
                   {
@@ -134,19 +132,16 @@ class App extends Component {
                         onEditSubmit={this.onEditSubmit}
                         />
                        );
-
                     })
                   }
                 </Panel>
               </div>
-
               <Main/>
           </Content>
       </Layout>
   </div>
     );
   }
-
 }
 
 export default App;
