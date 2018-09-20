@@ -57,11 +57,13 @@ class App extends Component {
     this.onEditSumit = this.onEditSubmit.bind(this);
   }
 
+  // Lifecycle method
   componentWillMount(){
     this.getBirthdays();
     this.setState({birthdays});
   }
 
+  // Get current birthdays from array 
   getBirthdays() {
     return this.state.birthdays;
 
