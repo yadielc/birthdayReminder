@@ -34,7 +34,6 @@ const birthdays = [
    {
      name: 'Felix',
      date:'August 26'
-
    },
    {
      name: 'Lisa',
