@@ -44,9 +44,11 @@ const birthdays = [
 ];
 
 localStorage.setItem('birthdays', JSON.stringify(birthdays));
+
 class App extends Component {
   constructor(props){
     super(props);
+    
     this.state = {
       birthdays:  JSON.parse(localStorage.getItem('birthdays'))
     };
@@ -56,9 +58,8 @@ class App extends Component {
   }
 
   componentWillMount(){
-  this.getBirthdays();
-
-  this.setState({birthdays});
+    this.getBirthdays();
+    this.setState({birthdays});
   }
 
   getBirthdays() {
@@ -69,7 +70,6 @@ class App extends Component {
   onAdd (name, date) {
     const birthdays = this.getBirthdays();
     birthdays.push({
-
       name,
       date
     });
